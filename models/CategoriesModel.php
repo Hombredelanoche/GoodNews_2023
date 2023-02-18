@@ -6,11 +6,11 @@ class CategoriesModel
 
     public function __construct()
     {
-        $this->db = Bdd::connexion();
+        $this->db = BDD::connexion();
     }
 
     public function getCategories()
     {
-        $this->db->query('SELECT * FROM categories')->fetchAll();
+        return $this->db->query('SELECT * FROM categories')->fetchAll();
     }
 }
