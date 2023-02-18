@@ -1,0 +1,36 @@
+:root {
+    --primary-color: white;
+    --secondary-color: red;
+    --primary-text-color: white;
+    --secondary-text-color: black;
+    --text-danger: grey;
+    --succed: green;
+}
+
+* {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    color: var(--primary-color);
+    height: 200vh;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to left top, #e11f1f, #c11a1e, #a2171c, #841419, #661115, #550f15, #440e13, #330c0f, #290b0e, #1f080c, #140407, #000000);
+}
+
+/*  Generique */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color);
+}
+
+footer p {
+    color: white;
+}
