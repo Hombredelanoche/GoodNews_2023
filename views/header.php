@@ -12,9 +12,21 @@
 <body>
     <header>
         <nav class="menu">
+            <div>
+                <img src="assets/images/goodNews2.pdf.png" alt="logo">
+            </div>
             <ul>
-
-
+                <?php foreach ($menu as $categorie) { ?>
+                    <li>
+                        <a href="?p=categorie&id=<?= $categorie['id_categories'] ?>"> <?= $categorie['nom'] ?></a>
+                    </li>
+                <?php } ?>
+                <li>
+                    <a href="?p=connexion" title='connexion'>Connexion</a>
+                </li>
+                <li>
+                    <a href="?p=inscription" title='inscription'>Inscription</a>
+                </li>
             </ul>
         </nav>
     </header>

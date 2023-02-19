@@ -19,7 +19,7 @@ body {
     color: var(--primary-color);
     height: 200vh;
     background-repeat: no-repeat;
-    background-image: linear-gradient(to left top, #e11f1f, #c11a1e, #a2171c, #841419, #661115, #550f15, #440e13, #330c0f, #290b0e, #1f080c, #140407, #000000);
+    background-image: linear-gradient(to right bottom, #ff0000, #ee241f, #dc3430, #c9413d, #b44a48, #9d4648, #864246, #6f3e42, #533034, #382226, #1f1517, #000000);
 }
 
 /*  Generique */

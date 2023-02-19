@@ -1,6 +1,6 @@
 <?php
 
-include_once('./models/modelCategories.php');
+include_once('./models/CategoriesModel.php');
 
 class CategoriesController
 {
